@@ -3,7 +3,7 @@
   position: relative;
   min-height: 350px;
   box-sizing: border-box;
-  background-color: black;
+  background-color: #1f1f1f;
   display: flex;
   justify-content: center;
 }
@@ -46,6 +46,8 @@
   display: flex;
   flex-direction: column;
   margin: 20px 0 16px 0;
+  text-decoration: none;
+  color: #2f80ed;
 }
 
 .footer__column-link {
@@ -55,6 +57,8 @@
   font-weight: normal;
   align-items: center;
   z-index: 1;
+  text-decoration: none;
+  color: white;
 }
 
 .footer__social-icon {

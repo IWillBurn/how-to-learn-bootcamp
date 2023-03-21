@@ -9,14 +9,13 @@
 
 .header__title {
   width: 730px;
-  position: absolute;
-  left: 64px;
   display: flex;
   align-self: center;
   font-size: 96px;
   line-height: 96px;
   font-weight: 600;
-  margin: 0;
+  margin: 0 0 0 64px;
+  z-index: 2;
 }
 
 .header__subtitle {
@@ -28,6 +27,7 @@
   font-size: 18px;
   font-weight: normal;
   margin: 0;
+  z-index: 2;
 }
 
 .header__main-illustration {
@@ -36,6 +36,8 @@
   position: absolute;
   right: 0;
   bottom: 0;
+  z-index: 1;
+  object-fit: cover;
 }
 
 .header__square-pic {
@@ -45,4 +47,10 @@
   right: 0;
   top: 64px;
   background-color: #2f80ed;
+  z-index: 0;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
 }
