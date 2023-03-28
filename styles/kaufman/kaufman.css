@@ -7,14 +7,3 @@
   overflow: hidden;
   background-color: #1f1f1f;
 }
-
-.kaufman__triangle {
-  height: 877px;
-  width: 877px;
-  position: absolute;
-  right: -210px;
-  top: 0;
-  z-index: 0;
-  background-image: url("../../images/kaufman-triangle.svg");
-  background-size: cover;
-}
